@@ -32,3 +32,6 @@
 20 . find [directory_name ( ex: . or .. or any directory_name)]
 21 . find . -type d 
      // find in the current directory where type is a directory/folder
+22 . find . -type f -name "file.txt
+23 . chmod u=perm g=perm o=perm [file_name]
+     perm --> permission
