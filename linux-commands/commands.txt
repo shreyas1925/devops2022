@@ -22,3 +22,7 @@
 13 . rm -R folder
      // -R represents all the sub directories
 14 . sudo --> administrator
+15 . df -> disk management
+     df -h (human readable format)
+     df -hg (in gigabytes)
+16 . du --> displays the disk stats
