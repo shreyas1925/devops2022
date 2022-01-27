@@ -35,3 +35,5 @@
 22 . find . -type f -name "file.txt
 23 . chmod u=perm g=perm o=perm [file_name]
      perm --> permission
+24 . sudo chown root file.text
+     // Giving root permission to a file.txt
