@@ -9,3 +9,16 @@
 6 . explore file structures using open and where commands 
 7 . cat file1.txt file2.txt > file3.txt
     // Put the contents of both the files to file3.txt and print it [ > redirectional operator]
+8 . exho "Shreyas" > file3.text
+    // It will print Shreyas in file3.txt 
+9 . man --> Helps to know about the different commands
+10 . pipe ( | ) 
+     cat file3.txt | tr a-z A-Z > upper.txt 
+     // SHREYAS  -> output of first file is a input to the second command
+11 . mkdir -p /tut/commands/hello 
+     Creating the commands directory in between tut and hello ny using parent (-p)
+     /tut/hello -> this hello will stay as it is but we will get a new hello directory inside a commands directory
+12 . mv file1.txt file2.txt
+13 . rm -R folder
+     // -R represents all the sub directories
+14 . sudo --> administrator
