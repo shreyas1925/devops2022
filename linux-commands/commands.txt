@@ -26,3 +26,9 @@
      df -h (human readable format)
      df -hg (in gigabytes)
 16 . du --> displays the disk stats
+17 . head and tail 
+18 . diff file1 file2 
+19 . locate [file_name]
+20 . find [directory_name ( ex: . or .. or any directory_name)]
+21 . find . -type d 
+     // find in the current directory where type is a directory/folder
