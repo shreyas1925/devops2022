@@ -1,0 +1,11 @@
+1 . where [file_name]
+2 . open [directory | file_name]
+3 . cat > newfile.txt
+    Hello file !!
+    // Created a file and added text in it
+4 . cat newfile.txt
+    Hello file !! 
+5 . pwd cd mkdir rmdir rm ls -a ls -l ls -al
+6 . explore file structures using open and where commands 
+7 . cat file1.txt file2.txt > file3.txt
+    // Put the contents of both the files to file3.txt and print it [ > redirectional operator]
