@@ -1,0 +1,9 @@
+name: "Shreyas"
+message: "Hey how are you"
+number: 1925
+floating: 90.99
+
+paragraph: >
+  lorem ipsum dolor sit amet
+  lorem DevOps
+  # This all will be in a single line
