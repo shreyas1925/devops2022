@@ -1,0 +1,38 @@
+family: !!seq
+  - Father
+  - Mother
+  - Siblings
+
+familyarr: [Father, Mother, Siblings]
+
+# Sparse sequences - Some of the keys of the seq will be empty
+
+sparse seq:
+  - hi
+  - Hello
+  -
+  - Null
+  - good
+
+# Above one in json looks like this
+# {
+#   "sparse seq": [
+#     "hi",
+#     "Hello",
+#     null,
+#     null,
+#     "good"
+#   ]
+# }
+
+sparse seq2: |
+  - hi
+  - Hello
+  -
+  - Null
+  - good
+
+# Above one in json looks like this
+# {
+#   "sparse seq": "- hi\n- Hello\n-\n- Null\n- good\n"
+# }
