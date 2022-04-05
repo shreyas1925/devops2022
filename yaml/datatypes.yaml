@@ -2,8 +2,23 @@ name: "Shreyas"
 message: "Hey how are you"
 number: 1925
 floating: 90.99
+booleanVal: No # n,N,False,FALSE,false
+exponential: 6.07E78
 
-paragraph: >
+paragraph: !!str >
   lorem ipsum dolor sit amet
   lorem DevOps
   # This all will be in a single line
+
+# Specify the type
+
+one: !!int 1
+commaVal: !!int +540897 #540,897
+
+marks: !!float 90.99
+infinity: !!float .inf
+
+surname: !!null NULL
+~: No key here
+
+date: !!timestamp 2021-10-25
