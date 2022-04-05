@@ -1,7 +1,20 @@
-"name" : "Shreyas Shettigar"
-25 : "DOB"
+"name": "Shreyas Shettigar"
+25: "DOB"
+---
+# Lists
+- Blockchain
+- Blockchain
 
+---
+# Block style
 courses:
   - JavaScript
   - DevOps
   - Blockchain
+--- #This shows I have different document in a single file
+
+courses: [DevOps, Blockchain]
+---
+{ mango: "Yellow", apple: "Red" }
+---
+
