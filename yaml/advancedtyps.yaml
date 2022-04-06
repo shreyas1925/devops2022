@@ -24,7 +24,6 @@ sparse seq:
 #     "good"
 #   ]
 # }
-
 sparse seq2: |
   - hi
   - Hello
