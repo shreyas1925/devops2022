@@ -31,7 +31,30 @@ sparse seq2: |
   - Null
   - good
 
+
 # Above one in json looks like this
 # {
 #   "sparse seq": "- hi\n- Hello\n-\n- Null\n- good\n"
 # }
+
+---
+# Nested sequences
+- - mango
+  - apple
+- - apple
+  - banana
+
+---
+# key: value pairs are called maps (hashmaps)
+# !!map
+
+# nested maps
+name: Shreyas
+role:
+  age: 20
+  color: brown
+
+# other method
+
+name: Shreyas Shettigar
+role : { age: 21, color: white }
