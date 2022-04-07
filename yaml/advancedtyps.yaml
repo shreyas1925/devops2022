@@ -57,3 +57,26 @@ role:
 # other method
 name: Shreyas Shettigar
 role: { age: 21, color: white }
+---
+# pairs: !!pairs keys may have duplicate values
+
+pair example: !!pairs
+  - job: teacher
+  - job: Engineer
+# This will be an array of hashtables
+---
+# set allows us unique value pair
+names: !!set
+  ? shreyas
+  ? shettigar
+  # ? shreyas
+
+---
+# dictionary !!omap
+people: !!omap
+  - Shreyas Shettigar:
+      name: Shreyas
+      role: { age: 43, color: brown }
+  - Alex:
+      name: Alex Cathren
+      role: { age: 47, color: white }
