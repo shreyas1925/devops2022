@@ -79,4 +79,4 @@ people: !!omap
       role: { age: 43, color: brown }
   - Alex:
       name: Alex Cathren
-      role: { age: 47, color: white }
+      role: [age: 47, color: white]
