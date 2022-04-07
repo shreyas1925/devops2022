@@ -53,8 +53,7 @@ name: Shreyas
 role:
   age: 20
   color: brown
-
+---
 # other method
-
 name: Shreyas Shettigar
-role : { age: 21, color: white }
+role: { age: 21, color: white }
