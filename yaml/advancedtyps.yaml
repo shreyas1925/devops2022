@@ -80,3 +80,13 @@ people: !!omap
   - Alex:
       name: Alex Cathren
       role: [age: 47, color: white]
+---
+# reusing some properties using anchors
+
+likings: &like
+  fav color: blue
+  fav car: mercedes
+
+Shreyas:
+  <<: *like
+  fav car: tesla
