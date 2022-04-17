@@ -1,12 +1,20 @@
 const express = require('express');
+const redis = require('redis');
+
 const app = express();
+const client = redis.createClient({
+  host: 'redis-server',
+  port: 6379
+});
+client.set('visits', 0);
 
 app.get('/', (req, res) => {
-    res.send("Hello, world!");
-})
+  client.get('visits', (err, visits) => {
+    res.send('Number of visits is ' + visits);
+    client.set('visits', parseInt(visits) + 1);
+  });
+});
 
-let PORT = 5000; // this is the container's port which I have to listen
-
-app.listen(PORT, () => {
-    console.log(`App running at ${PORT}`)
-})
+app.listen(5000, () => {  // 5000 is the container's port
+  console.log('Listening on port 5000');
+});
